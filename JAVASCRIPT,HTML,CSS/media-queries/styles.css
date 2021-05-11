@@ -1,0 +1,5 @@
+@media only screen and (max-with:600px){
+    body{
+        background-color: yellow;
+    }
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(188, 226, 113);
+}
+
+img{
+    border-radius: 8px;
+    opacity: 0.8;
+    width: 135px;
+    height: 127px;
+    position: absolute;
+    right:10px;
+    top:32px;
+}
+
+p {outline-color:rgb(12, 70, 31);
+   
+    line-height: 3px;}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(46, 65, 17);
+}
+
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }

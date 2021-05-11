@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(90, 170, 144);
+    text-align:center;
+}
+
+table{
+    background-color: rgb(218, 141, 183);
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:100%;
+}
+
+td{
+    border: 1px solid #2b1d1d;
+    padding: 8px;
+}

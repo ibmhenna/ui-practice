@@ -1,0 +1,58 @@
+<html>
+<link rel="stylesheet" href='myform.css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<body class="jumbotron">
+    <form name="myform" onclick="doSomething()">
+        <input type="text" class="form-control" name="firstName" placeholder="First Name">
+        <div onclick="action2()">
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="type">Domestic
+                </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="type">International
+                </label>
+            </div>
+        </div>
+        <h3>Skills</h3>
+        <div onclick="doSomething()">
+            <input type="checkbox">Java
+            <input type="checkbox">Javascript
+            <input type="checkbox">Springboot
+        </div>
+        <br>
+        <lable>Date of Birth</lable>
+        <input type="date">
+        <br>
+        <select multiple>
+            <option value="option1">Option1</option>
+            <option value="option2">Option2</option>
+            <option value="option3">Option3</option>
+            <option value="option4">Option4</option>
+        </select>
+        <button onclick="validationName()">
+            Save
+        </button>
+        <table>
+            <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Henna</td>
+                    <td>David</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </form>
+</body>
+<script src="myforms.js"></script>
+
+</html>
